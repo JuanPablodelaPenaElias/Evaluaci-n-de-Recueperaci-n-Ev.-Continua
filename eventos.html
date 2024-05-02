@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('fodo3.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        table {
+            width: 100%;
+            height: 100%;
+        }
+        .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        
+    </style>
+</head>
+<body>
+
+    <table style="width: 1000px; height: 1100px; margin: auto; background-color: #e8c0cb;">
+        <tr>
+            <td class="header">
+                <div class="image-container">
+                    <img src="logo.jpg" alt="Logo" class="logo">
+                    <img src="IMG1.jpg" alt="Decoración" class="decoration-image">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6" style="text-align: center; height: 50px; background-color: #a277ad; color: white;">
+                <a href="index.html" style="text-decoration: none; color: white; margin-right: 3cm;">Inicio</a>
+                <a href="nosotros.html" style="text-decoration: none; color: white; margin-right: 3cm;">Nosotros</a>
+                <a href="productos.html" style="text-decoration: none; color: white; margin-right: 3cm;">Productos</a>
+                <a href="eventos.html" style="text-decoration: none; color: white; margin-right: 3cm;">Eventos</a>
+                <a href="contactos.html" style="text-decoration: none; color: white;">Contactos</a>
+            </td>   
+        </tr>
+        <tr>
+            <td colspan="6" class="centered" style="background-color: #e8c0cb;">
+                <p style="text-align: center; color: #a277ad; line-height: 40px">¿Tiene Algún evento especial?</p>
+
+
+                <div style="text-align: center;">
+                    <div style="text-align: center;">
+                        <div style="display: inline-block; vertical-align: top;">
+                            <p class="left-align" style="color : #a277ad;line-height: 30px">Babyshower</p>
+
+                            <img src="baby.png" alt="Babyshower" class="centered" style="height: 330px;">
+
+                        </div>
+                        <div style="display: inline-block; vertical-align: top;">
+                            <p class="left-align"style="color: #a277ad; line-height: 30px">Bodas</p>
+                            <img src="boda.jpg" alt="Bodas" class="centered" style="height: 330px;">
+                        </div>
+                        
+                        
+                    
+                    
+                </div>
+                <hr style="width: 960px; height: 20px; background-color: purple; border: none;">
+
+               
+                <p style="color: #a277ad; line-height: 30px;">¡Envíanos la información!</p>
+
+
+                <form>
+                    <input type="text" placeholder="Nombre"><br>
+                    <input type="text" placeholder="Apellidos"><br>
+                    <input type="tel" placeholder="Teléfono"><br>
+                    <input type="email" placeholder="E-mail"><br>
+                    <input type="text" placeholder="Dirección"><br>
+                   
+                    <select name="Elige tu población>
+                        <select name="poblacion">
+                            <option value="Toda España">"Elige tu población"</option>
+                            <option value="Madrid">Madrid</option>
+    <option value="Barcelona">Barcelona</option>
+    <option value="Valencia">Valencia</option>
+    <option value="Almería">Almería</option>
+        <option value="Cádiz">Cádiz</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="Huesca">Huesca</option>
+        <option value="Teruel">Teruel</option>
+        <option value="Zaragoza">Zaragoza</option>
+                        </select>
+                        
+                        <option value="opcion1"></option>
+                       
+                        
+                        <!-- Agrega más opciones según sea necesario -->
+                    </select>
+                    
+                    <input type="checkbox" id="babyshower" name="evento" value="babyshower">
+                    <label for="babyshower">Babyshower</label><br>
+                    <input type="checkbox" id="bodas" name="evento" value="bodas">
+                    <label for="bodas">Bodas</label><br>
+                    <input type="checkbox" id="entrega" name="entrega" value="entrega">
+                    <label for="entrega">Entrega a domicilio</label><br>
+                    <input type="checkbox" id="recogida" name="entrega" value="recogida">
+                    <label for="recogida">Recogida en tienda</label><br>
+                    <textarea placeholder="Comenta tus ideas" rows="4" cols="50"></textarea><br>
+                    <input type="file"><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6" style="background-color: #e8c0cb; height: 50px;"></td>
+        </tr>
+        <tr>
+            <td colspan="6" class="centered" style="background-color: #e8c0cb; color: white;">
+                <span>Autor: [JUAN PABLO DE LA PEÑA ELIAS 1 DAW]</span>
+                <span style="float: right;">Aviso Legal/Protección de Cookies</span>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
